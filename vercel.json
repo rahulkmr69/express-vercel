@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "./index.js", "use": "@vercel/node" } // Assuming your file is named index.js
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/" }
-  ]
-}
